@@ -1,0 +1,143 @@
+a{
+    color: inherit;
+    text-decoration: none;
+}
+p{
+    font-family: sans-serif;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number]{
+    background-color: inherit;
+    border: none;
+    
+
+}
+header{
+    display: flex;
+    color: red;
+    background-color: white;
+    justify-content: space-between;
+}
+header nav ul{
+    
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li{
+    font-size: 15px;
+    margin: 22px;
+    font-family: roboto;
+}
+header .logo{
+    font-size: 30px;
+    margin: 15px;
+    font-family: roboto;
+}
+main{
+    display: flex;
+    justify-content: stretch;
+
+}
+  
+
+.iz{
+    color: white;
+    background-color: #00b2fd;
+    padding: 40px;
+    width: 50%;
+    height: auto;
+
+}
+.iz h1{
+    font-family: roboto;
+    font-size: 40px;
+     padding: 20px 0px;
+}
+.iz .monto{
+    background-color: #35c0fc;
+    padding: 20px 10px;
+}
+
+.iz .medio{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px;
+}
+.iz .medio .NT{
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: #35c0fc;
+}
+.dias ul{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.dias ul li{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: #35c0fc;
+}
+.dias ul li input{
+    background-color: white;
+}
+.iz .last{
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+.de{
+    width: 50%;
+    height: auto;
+    padding: 40px;
+    background-color: #f3f6f4;
+}
+.de .wrap_1{
+    background-color: white;
+    box-shadow:  2px 2px 5px 1px #bcbcbc;
+
+}
+.de .first {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.de .second{
+    display: flex;
+    justify-content: space-between;
+}
+.de .second div {
+  padding: 5px 10px;
+}
+
+.de .th{
+    display: flex;
+    justify-content: flex-end;
+}
+.de .th .total{
+    margin: 30px;
+}
+.de :last-child img{
+    margin: 25px 10px;
+ height: 40px;
+ width: 50px;
+}
+main .z.z::first-letter{
+    color: red;
+}
+main .z{
+    padding: 20px 0px;
+}
