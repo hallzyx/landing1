@@ -1,0 +1,364 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eb5c5d  ;
+    color: white;
+}
+header nav ul{
+    display: flex;
+    
+}
+header a img{
+    width: 320px;
+    height: auto;
+    margin: 25px 95px;
+}
+header nav ul li{
+    margin: 35px 45px;
+    font-size: 25px;
+}
+header nav ul li:hover{
+    color: rgb(201, 177, 177);
+}
+header ul li:last-child{
+    margin: 35px 95px 35px 45px;
+} 
+main figure img{
+    
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(-1);
+}
+main figure{
+    position: relative;
+}
+main figure h2{
+    line-height: 100%;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    z-index: 10;
+    position: absolute;
+    top: 190px;
+    left: 95px;
+    font-size: 65px;
+}
+section{
+    position: absolute;
+    background-color: rgb(240, 231, 222);
+    width: 100%;
+}
+section .p1{
+    display: absolute;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    top:20px;
+    margin-left: 95px;
+    margin-top: 70px;
+    
+
+}
+section .p2{
+    display: absolute;
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;   
+    margin-right: 95px;
+    margin-bottom: 70px;
+    bottom: 20px;    
+}
+section h3{
+    font-size: 50px;
+    font-variation-settings: 'wght' 755;
+}
+section h4{
+    margin-top: 40px;
+    font-size:17px;
+    letter-spacing: 0.8px;
+    line-height: 26px;
+    font-variation-settings: 'wght' 450;
+}
+section h4 span{
+    font-variation-settings: 'wght' 450;
+
+}
+section article p{
+    margin-top: 8px;
+    font-family: 'Work Sans', sans-serif;  
+    font-size: 13px;
+    line-height: 13px;
+    
+}
+section article button{
+    font-size: 24px;
+    font-family: 'spectral'; 
+    text-decoration: none;
+    border:  4px solid black;
+    background-color: inherit;
+    margin: 15px 0px;
+    border-radius: 8px;
+    padding: 5px 20px;
+    
+
+}
+section button:hover{
+    background-color: skyblue;
+    border: 4px solid skyblue;
+    color: white;
+}
+section .box{
+   background-color:  rgb(235, 92, 93);
+   
+}
+section .box h3{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif; 
+    font-variation-settings: 'wght' 550;
+}
+section .box .mainbox{
+    display:flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+section .mainbox div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    
+}
+section .mainbox .box5:hover,
+section .mainbox .box6:hover,
+section .mainbox .box7:hover,
+section .mainbox .box8:hover
+{
+
+    border: 1px solid gray;
+    opacity: 0.7;
+    background-color: white;
+    
+
+}
+.box h3{
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+section .box .mainbox p{
+    font-size: 17px;
+    font-family: 'Work Sans', sans-serif; 
+    text-align: left;
+    margin-bottom: 50px;
+    
+}
+.box h5{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.box h4{
+    margin: 10px auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.mainbox div img{
+    width: 40%;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+}
+.mainbox button{
+    width: 70%;
+    margin: 20px 20px 50px 20px;
+    height: auto;
+    font-size: 24px;
+    font-family: 'spectral'; 
+    text-decoration: none;
+    border:  4px solid black;
+    background-color: inherit;
+    
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+.mainbox .butagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mainbox .box5 p{
+    padding-bottom: 45px;
+}
+.mainbox .box6 p{
+    padding-bottom: 23px;
+}
+.mainbox .box8 p{
+    padding-bottom: 12px;
+}
+.tercero .list{
+    display: flex;
+}
+.tercero .list div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom:80px ;
+    
+}
+.tercero .title{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-family: 'Work Sans', sans-serif; 
+
+}
+.tercero span{
+    font-size: 125px;
+}
+.tercero h3{
+    font-size: 40px;
+    margin-top:10px;
+    margin-bottom: 30px;
+
+}
+.tercero p{
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 19px;
+    letter-spacing: 0.67px;
+    line-height: 25px;
+    
+}
+.tercero .title strong{
+    font-weight: 700;
+
+}
+.last{
+    background-color:  rgb(235, 92, 93);
+    padding: 50px 95px;
+    position: relative;
+    
+}
+.last .title  h3{
+    margin: 40px auto;
+    text-align: left;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif; 
+    line-height: 65px;
+
+}
+.last img{
+    position: absolute;
+    width: 23%;
+    height: 450px;
+    right: 175px;
+    top: 20%;
+}
+
+.last p strong{
+    font-weight: 700 !important;
+}
+.last>p{
+    font-family: 'Work Sans', sans-serif; 
+    margin: 25px 0px;
+    letter-spacing: 0.8px;
+    line-height: 40px;
+    font-size: 27px;
+}
+.sup h3{
+    font-family: 'Work Sans', sans-serif; 
+    margin: 90px auto 23px auto;
+    font-size: 50px;
+    text-align: center;
+    font-variation-settings: 'wght' 550;
+}
+.sup p{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 40px;
+
+}
+.sup .block1,
+.sup .block2,
+.sup .block3{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.sup .block1{
+    margin: 15px 280px;
+}
+.sup .block2{
+    margin: 15px 250px;
+}
+.sup .block3{
+    margin: 15px 300px;
+    
+}
+
+.sup .block1 div,
+.sup .block2 div,
+.sup .block3 div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sup img{
+    width: 90%;
+}
+.sup .log{
+    margin: 0px;
+    font-size: 45px;
+    font-family: spectre;
+    font-weight: 400;    
+}
+
+.sup .block3 .fix{
+    height: 40%;
+    width: 40%;
+}
+.sup .contact{
+    margin: 0px auto 25px auto;
+}
+.sup .contact a{
+    color: rgba(238, 108, 77, 1);
+}
+.sup .contact a:hover{
+    color: skyblue
+}
+footer{
+    background-color: black;
+    color:gray
+}
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+}
+footer ul li{
+    margin: 13px 20px;
+}
+footer ul li:hover{
+    color: white
+}
+footer ul:last-child{
+    padding-right: 80px ;
+}
